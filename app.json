@@ -1,11 +1,9 @@
 {
-  "expo": {
-    "name": "login-correction",
-    "slug": "login-correction",
-    "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ]
-  },
-  "name": "login-correction"
+  "web": {
+    "build": {
+      "babel": {
+        "include": ["react-router-native"]
+      }
+    }
+  }
 }
